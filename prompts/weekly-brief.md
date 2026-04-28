@@ -133,11 +133,32 @@ Use the docx skill to render the brief markdown to a .docx file at `/tmp/Weekly 
 - Update MOC - Stocks.md if positions changed
 
 ## Step 7: Commit and PR
-- Branch: `claude/brief-YYYY-MM-DD`
-- Commit message: "Weekly brief YYYY-MM-DD"
-- PR title: "Weekly Investing Brief — YYYY-MM-DD"
-- PR body: paste Section 10 (Synthesis) as the summary, plus Exit Review summary if any EXIT TRIGGERED
-- Auto-merge enabled
+This routine runs in a cloud environment — use the GitHub REST API, not local git.
+
+Requires: `GITHUB_TOKEN` secret set in this routine (Personal Access Token with `repo` scope — generate at github.com/settings/tokens).
+
+1. Get current SHA of main:
+   `GET https://api.github.com/repos/rubyosborne/long-term-investing-vault/git/ref/heads/main`
+
+2. Create branch `claude/brief-YYYY-MM-DD` from that SHA:
+   `POST https://api.github.com/repos/rubyosborne/long-term-investing-vault/git/refs`
+   Body: `{"ref":"refs/heads/claude/brief-YYYY-MM-DD","sha":"<sha-from-step-1>"}`
+
+3. For each file created or modified in Steps 1–6, push to the branch via the Contents API:
+   `PUT https://api.github.com/repos/rubyosborne/long-term-investing-vault/contents/{filepath}`
+   Body: `{"message":"Weekly brief YYYY-MM-DD","content":"<base64-encoded-content>","branch":"claude/brief-YYYY-MM-DD","sha":"<existing-file-sha-if-updating>"}`
+
+4. Create PR:
+   `POST https://api.github.com/repos/rubyosborne/long-term-investing-vault/pulls`
+   - Title: "Weekly Investing Brief — YYYY-MM-DD"
+   - Body: Section 10 (Synthesis) + Exit Review summary if EXIT TRIGGERED
+   - Head: `claude/brief-YYYY-MM-DD` → Base: `main`
+
+5. Enable auto-merge on the PR.
+
+All requests must include header: `Authorization: Bearer $GITHUB_TOKEN`
+
+If GITHUB_TOKEN is missing or any API call fails: log to ops/routine-log.md, continue to Step 8, and include a PR failure note in the email body. The brief is not blocked by a PR failure.
 
 ## Step 8: Email
 Use the Gmail connector. To: ruby.osborne@gmail.com. Subject: "Weekly Investing Brief — YYYY-MM-DD".
