@@ -45,6 +45,7 @@ Read `ops/inbox.md` (already loaded in pre-flight). For each entry:
 - Identify type (stock insight, theme observation, macro, trade confirmation, other)
 - Identify source tier (1-4 per investment-policy.md)
 - Apply the 48-hour cooldown rule. Insights with source tier ≥3 submitted Wednesday or later are watchlist-only this week.
+- For Tier 3/4 insights: evaluate whether a discovery position is warranted per investment-policy.md. If yes, flag for inclusion in Section 7 and Section 9.
 - Route to the destination's Updates Log with: date, source tier, content
 - Track frequency: if >5 insights this week, set a flag for the brief
 
@@ -121,6 +122,7 @@ For each pick, all 7 funnel steps applied. Format:
 - Data confidence: full / partial / data-gap
 
 If a pick is asymmetric, include all 5 guardrails inline.
+If a pick is a discovery position (Tier 3/4 exception), label it as such and include: bull case, kill condition, source tier justification, 6-month sunset date, and fee check confirmation.
 
 ### Section 8: Watchlist Update
 - Prior picks: thesis check-in
@@ -148,10 +150,7 @@ If a pick is asymmetric, include all 5 guardrails inline.
 
 Write the brief to the working branch via API.
 
-## Step 5: Generate .docx
-Use the docx skill to render the brief markdown to a .docx file at `/tmp/Weekly Investing Brief - YYYY-MM-DD.docx`. This file is for email attachment. It is not committed to the repo.
-
-## Step 6: Update vault
+## Step 5: Update vault
 All updates via API on the working branch:
 - Append to `Investing Knowledge Base/04-Weekly Briefs/Brief Index.md`
 - Update Watchlist with new picks (status: flagged or watching per cooldown)
@@ -181,8 +180,7 @@ Email body structure:
 1. Portfolio Overview (from Section 1)
 2. Exit Review summary (from Section 2)
 3. This Week's Synthesis (from Section 10)
-4. "See attached for full brief"
-Attach: `/tmp/Weekly Investing Brief - YYYY-MM-DD.docx`
+4. Link to the PR for the full brief
 
 ## Step 9: Log
 Append to `ops/routine-log.md` (via API on the working branch): timestamp, status (success / partial / failed), data gaps if any, notable events.

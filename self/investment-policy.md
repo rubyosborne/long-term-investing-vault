@@ -31,9 +31,22 @@ If any cap is breached, the brief flags it with ⚠️ and proposes rebalancing 
 2. **Source tier:** every insight must declare a source tier:
    - **Tier 1:** SEC filing, earnings call transcript, primary company doc. Full weight.
    - **Tier 2:** Tier-1 financial press (Bloomberg, Reuters, FT, WSJ). Full weight after independent confirmation.
-   - **Tier 3:** secondary press, analyst notes, Substacks. Discounted, watchlist only.
-   - **Tier 4:** social (X, Reddit, podcasts). Noted but never trade trigger.
+   - **Tier 3:** secondary press, analyst notes, Substacks. Discounted, watchlist only — unless a discovery position is warranted (see below).
+   - **Tier 4:** social (X, Reddit, podcasts). Noted but never trade trigger — unless a discovery position is warranted (see below).
 3. **Frequency limit:** if more than 5 insights submitted in a single week, brief flags it: "high insight volume detected. Consider whether you are trading on news rather than investing on theses."
+
+## Discovery positions (Tier 3/4 exception)
+When a Tier 3 or Tier 4 insight is unusually compelling — a clear catalyst, a structural edge, or a thesis that would be actionable if the source were higher-tier — the brief may recommend a discovery position instead of watchlist-only.
+
+**Rules:**
+1. **Size cap:** max $25 per idea. This comes from the week's $250 allocation, not on top of it.
+2. **Frequency:** max one discovery position per week.
+3. **Bucket:** discovery positions count against the asymmetric bet bucket (0-10% of portfolio). They are not a separate allocation.
+4. **Fee floor:** position must be large enough that FX spread and per-trade costs are <2% of position value. If the minimum viable trade on the platform exceeds $25, skip the discovery position.
+5. **Minimum thesis:** one-sentence bull case, explicit kill condition, and a reason why the idea is compelling despite the source tier.
+6. **6-month sunset:** if not confirmed by a Tier 1/2 source within 6 months, exit regardless of price. Shorter than the standard 18-month asymmetric sunset because the thesis is less grounded.
+7. **Promotion path:** if independently confirmed by a Tier 1/2 source, promote to a proper asymmetric bet through the full 7-step funnel. May add to the position at that point.
+8. **No stacking:** total discovery positions cannot exceed 2% of portfolio. If at the cap, new discoveries must wait for an existing one to be promoted or exited.
 
 ## Theme construction
 - Themes are additive overlays on top of stock-by-stock selection, not the only direction.
