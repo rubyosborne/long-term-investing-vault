@@ -1,5 +1,9 @@
 # Price Snapshot
 
-Generated: 2026-04-27 11:45
+Generated: 2026-05-01 17:00
 
-No holdings found in Holdings.md. Add positions to generate price data.
+## Holdings
+No active holdings. Portfolio not yet established.
+
+## Watchlist Candidates
+Prices to be populated after research completes.
