@@ -11,6 +11,7 @@
 8. `Investing Knowledge Base/07-Portfolio/Holdings.md`
 9. `ops/processing-queue.md`
 10. `ops/inbox.md`
+11. `ops/trades.md`
 
 ## Routing rules
 - Investing notes go inside `Investing Knowledge Base/` only.

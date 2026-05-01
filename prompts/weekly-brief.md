@@ -29,8 +29,9 @@ Read these files via API in order:
 8. `Investing Knowledge Base/04-Weekly Briefs/Brief Index.md`
 9. `ops/processing-queue.md`
 10. `ops/inbox.md`
-11. List directory `Investing Knowledge Base/05-Stocks/` and read every file
-12. List directory `Investing Knowledge Base/03-Themes/` and read every file
+11. `ops/trades.md`
+12. List directory `Investing Knowledge Base/05-Stocks/` and read every file
+13. List directory `Investing Knowledge Base/03-Themes/` and read every file
 
 ## Step 0: Refresh data
 Cannot run local Python scripts in cloud environment. Instead:
@@ -40,9 +41,22 @@ Cannot run local Python scripts in cloud environment. Instead:
 - Write updated `ops/prices.md` and `ops/macro.md` to the working branch (created in Step 7) with current data
 - If any fetch fails: log gap to `ops/routine-log.md`, mark relevant brief sections as "data-incomplete", continue
 
-## Step 1: Reduce inbox
+## Step 1: Reduce inbox and process trades
+
+### Step 1a: Process trade confirmations
+Read `ops/trades.md` (already loaded in pre-flight). For each trade entry:
+- Parse ticker, shares, price, and date
+- Add/update the position row in `Investing Knowledge Base/07-Portfolio/Holdings.md`
+- Update the stock note's status field (e.g., "Recommended" → "Active position")
+- Append to the stock note's Updates Log with date and trade details
+
+After processing:
+- Append trade entries to `ops/inbox-archive/YYYY-MM-DD.md`
+- Write clean trades template to `ops/trades.md` (use sha from pre-flight read)
+
+### Step 1b: Reduce inbox
 Read `ops/inbox.md` (already loaded in pre-flight). For each entry:
-- Identify type (stock insight, theme observation, macro, trade confirmation, other)
+- Identify type (stock insight, theme observation, macro, other)
 - Identify source tier (1-4 per investment-policy.md)
 - Apply the 48-hour cooldown rule. Insights with source tier ≥3 submitted Wednesday or later are watchlist-only this week.
 - For Tier 3/4 insights: evaluate whether a discovery position is warranted per investment-policy.md. If yes, flag for inclusion in Section 7 and Section 9.
@@ -50,7 +64,7 @@ Read `ops/inbox.md` (already loaded in pre-flight). For each entry:
 - Track frequency: if >5 insights this week, set a flag for the brief
 
 After processing:
-- Write current inbox content to `ops/inbox-archive/YYYY-MM-DD.md` (new file, no sha needed)
+- Append inbox entries to `ops/inbox-archive/YYYY-MM-DD.md`
 - Write clean inbox template to `ops/inbox.md` (use sha from pre-flight read)
 
 Both writes go to the working branch (created in Step 7), not main.
@@ -146,7 +160,7 @@ If a pick is a discovery position (Tier 3/4 exception), label it as such and inc
 - Bullet list, brief
 
 ### Section 12: Trade Confirmation Prompt
-- "Reply with trades placed in the format: 'Bought X.XX TICKER at $YY.YY on YYYY-MM-DD'"
+- "Log trades in `ops/trades.md` via the GitHub app. Format: `Bought X.XX TICKER at $YY.YY` under a `### YYYY-MM-DD` heading. They'll be processed in next Monday's brief."
 
 Write the brief to the working branch via API.
 

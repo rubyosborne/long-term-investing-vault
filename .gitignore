@@ -8,3 +8,4 @@ __pycache__/
 *.swp
 # Briefs as .docx are emailed, not committed
 *.docx
+.claude/settings.local.json
