@@ -1,20 +1,27 @@
 # Routine Log
 
-## 2026-05-01 17:00 NZT - Weekly Brief
-- **Status:** Success
-- **Brief:** Investing Knowledge Base/04-Weekly Briefs/2026-05-01 - Weekly Brief.md
-- **Branch:** claude/brief-2026-05-01
+## 2026-05-05 17:00 NZT - Weekly Brief
+- **Status:** Success (partial)
+- **Brief generated:** Yes (12 sections complete)
+- **Branch:** claude/brief-2026-05-05
+- **PR:** Pending creation
 - **Data gaps:**
-  - Home.md not found in vault (missing file)
-  - 2Y Treasury yield: used April 29 data (3.94%), May 1 not yet published at time of run
-  - Previous week macro values estimated from available data
+  - CRWD price low confidence (conflicting sources $437-468)
+  - Oil price not fetched
+  - Credit spreads not fetched
+  - All prices from web search (not yfinance API)
+  - NZD/USD 5-year mean estimated from partial data
 - **Notable events:**
-  - Inaugural brief (week 1). Empty portfolio.
-  - 2 inbox items processed (Tier 3 + Tier 4)
-  - 3 picks generated: GOOGL (HIGH), MSFT (HIGH), AMZN (MEDIUM)
-  - 5 watchlist entries created: NVDA, BRK.B, PLTR, CRWD, CELH
-  - 1 theme created: AI Infrastructure
-  - 3 stock notes created: GOOGL, MSFT, AMZN
-  - All vault scaffolding files created (Theme Index, Brief Index, Watchlist, MOC, Processing Queue)
-- **Files written:** 15
-- **Email:** Sent to ruby.osborne@gmail.com
+  - Portfolio remains empty (no trade confirmations from inaugural brief)
+  - PLTR Q1 earnings blowout (85% rev growth), moved Flagged to Watching
+  - BRK.B recommended as first theme-diversification pick (Quality Value)
+  - GOOGL -9.5% creates better entry than inaugural brief
+  - Middle East tensions driving rates higher (10Y 4.456%, 30Y >5%)
+- **Inbox:** Empty (no items to process)
+- **Email:** Attempted via Gmail connector
+- **Docx:** Not generated (no docx tool available in cloud environment)
+
+## 2026-05-01 17:00 NZT - Inaugural Brief
+- **Status:** Success
+- **Brief generated:** Yes
+- **Notes:** First brief. Established AI Infrastructure theme. Recommended GOOGL, MSFT, AMZN.
