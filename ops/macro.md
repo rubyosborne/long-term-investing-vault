@@ -1,24 +1,35 @@
-# Macro Snapshot
+# Macro Indicators
 
-Generated: 2026-05-01 17:00
+Last updated: 2026-05-05 17:00 NZT
 
-## Rates & Volatility
-| Indicator | Current | Previous Week | Change |
+## Rates
+| Indicator | Value | Change | Notes |
 |---|---|---|---|
-| 10-Year Treasury Yield | 4.39% | 4.31% | +0.08 |
-| 2-Year Treasury Yield | 3.94% | 3.88% | +0.06 |
-| VIX | 17.10 | 18.81 | -1.71 |
-| DXY (Trade-Weighted USD) | 98.15 | 99.97 | -1.82 |
+| 10Y Treasury | 4.456% | Highest since Jul 2025 | Middle East tensions driving |
+| 2Y Treasury | 3.954% | +6bps | Inflation expectations rising |
+| 10Y-2Y Spread | +50bps | Normal | No inversion signal |
+| 30Y Treasury | >5.00% | First time this cycle | Long-end selling off |
+| Fed Funds | 4.25-4.50% | Unchanged | Hold expected through 2026 |
 
-## Yield Curve
-- 10Y-2Y spread: +45bp (positive, normal slope)
-- No inversion signal. Curve steepened modestly week-on-week.
+## Volatility & Dollar
+| Indicator | Value | Change | Notes |
+|---|---|---|---|
+| VIX | 18.29 | +7.65% | Elevated caution, not panic |
+| DXY | 98.48 | +0.33% | Near 2026 lows, weak dollar |
 
-## FX Context
-- NZD/USD: 0.5832 (1-week range: 0.5852-0.5911)
-- 5-year mean: 0.621
-- Deviation from mean: -6.1%
-- FX within normal range (threshold: +/-10%)
+## FX
+| Pair | Value | vs 5Y Mean | Flag |
+|---|---|---|---|
+| NZD/USD | 0.5876 | -7% below 0.63 mean | No flag (threshold 10%) |
 
-## Summary
-Rates edged higher after the Fed held rates steady with a hawkish tone on inflation. VIX dropped sharply from 18.81 to 17.10, signalling complacency. The dollar weakened (DXY from ~100 to 98.15), which modestly benefits NZD-denominated investors buying USD assets. The NZD remains 6.1% below its 5-year mean, still within the normal range per policy.
+## Context
+- Middle East tensions escalating, pushing oil prices higher
+- Fed expected to hold rates through year-end
+- 15% market-implied probability of December rate hike
+- Inflation scare (not growth scare): bonds and equities selling together
+- Dollar weak despite rate rises (geopolitical risk premium)
+
+## Data Gaps
+- Oil price not fetched (would strengthen analysis)
+- Credit spreads not fetched
+- Source: web search, not FRED API directly. Confidence: moderate.
