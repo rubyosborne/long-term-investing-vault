@@ -3,7 +3,7 @@
 **Added:** 2026-05-01
 **Bucket:** Growth compounder
 **Themes:** [[AI Infrastructure]]
-**Status:** Recommended (not yet purchased)
+**Status:** Active position
 
 ## Thesis
 AWS re-accelerated to 28% growth (15-quarter high). Operating margins at record 13.1%. Dual growth engine: cloud/AI compute + retail margin expansion. Anthropic partnership ($100B AWS commitment) locks in major AI workload.
@@ -29,3 +29,5 @@ Buy zone within 5% of current (~$250-$264)
 
 ## Updates Log
 - 2026-05-01: Initial note created. Recommended in inaugural brief at MEDIUM conviction. At all-time high. FCF compressed to $1.2B from $25.9B YoY due to capex surge.
+- 2026-05-01: Bought 0.1092 shares at $265.65 ($29.00 total). Position opened.
+- 2026-05-10: Trade confirmed and added to Holdings.md.

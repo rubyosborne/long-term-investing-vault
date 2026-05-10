@@ -3,7 +3,7 @@
 **Added:** 2026-05-01
 **Bucket:** Growth compounder
 **Themes:** [[AI Infrastructure]]
-**Status:** Recommended (not yet purchased)
+**Status:** Active position
 
 ## Thesis
 Cloud inflecting to profitability at 63% growth. Search moat intact. AI capex ($175-185B in 2026) building long-term infrastructure advantage. Cheapest mega-cap quality compounder on a growth-adjusted basis.
@@ -28,3 +28,5 @@ Buy zone within 5% of current (~$366-$386)
 
 ## Updates Log
 - 2026-05-01: Initial note created. Recommended in inaugural brief at HIGH conviction. Blowout Q1 results. Stock at 52W high after +34% April.
+- 2026-05-01: Bought 0.1534 shares at $378.00 ($58.00 total). Position opened.
+- 2026-05-10: Trade confirmed and added to Holdings.md.

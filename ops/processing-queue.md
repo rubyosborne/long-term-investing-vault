@@ -8,7 +8,7 @@ Last updated: 2026-05-05
 - [ ] CRWD: Deep dive on Falcon ARR trajectory and Charlotte AI monetisation. Target completion before next earnings.
 - [ ] Establish 2-3 additional independent themes to reduce AI Infrastructure concentration (Quality Value confirmed as candidate with BRK.B; Consumer Growth and Cybersecurity proposed).
 - [ ] Create Investing Knowledge Base/Home.md (still missing from vault).
-- [ ] If Ruby confirms trades: create Holdings.md and update portfolio tracking.
+- [x] Trades confirmed 2026-05-10: Holdings.md created, stock notes updated to Active position.
 
 ## Completed (from 2026-05-01 brief)
 - [x] BRK.B: Review after annual meeting (May 2). Abel confirmed leadership continuity. Recommended in 2026-05-05 brief.

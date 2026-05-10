@@ -3,7 +3,7 @@
 **Added:** 2026-05-01
 **Bucket:** Growth compounder
 **Themes:** [[AI Infrastructure]]
-**Status:** Recommended (not yet purchased)
+**Status:** Active position
 
 ## Thesis
 Azure grew 40% in Q3 FY26. At 25x trailing P/E (19% below 10-year median of 33x), cheapest it has been relative to its own history. Deepest enterprise distribution moat in tech. Ended OpenAI revenue-share, positive for margins.
@@ -28,3 +28,5 @@ Buy zone within 5% of current (~$397-$418)
 
 ## Updates Log
 - 2026-05-01: Initial note created. Recommended in inaugural brief at HIGH conviction. Michael Burry disclosed MSFT position this week.
+- 2026-05-01: Bought 0.1405 shares at $412.77 ($58.00 total). Position opened.
+- 2026-05-10: Trade confirmed and added to Holdings.md.
