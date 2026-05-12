@@ -1,23 +1,26 @@
 # Prices
 
-Last updated: 2026-05-05 17:00 NZT
+Last updated: 2026-05-12 17:00 NZT
 
 ## Holdings
-(No active holdings)
+| Ticker | Current Price | Avg Cost | Shares | Current Value | Return % |
+|---|---|---|---|---|---|
+| GOOGL | $388.64 | $378.00 | 0.1534 | $59.62 | +2.8% |
+| MSFT | $411.80 | $412.77 | 0.1405 | $57.86 | -0.2% |
+| AMZN | $268.99 | $265.65 | 0.1092 | $29.37 | +1.3% |
 
-## Watchlist & Recommended
-| Ticker | Price | Change from May 1 | Source |
-|---|---|---|---|
-| GOOGL | $348.53 | -9.5% | Web search |
-| MSFT | $414.44 | -0.9% | Web search |
-| AMZN | $272.00 | +3.4% | Web search |
-| NVDA | $198.67 | N/A | Web search |
-| BRK.B | $468.52 | -1.0% | Web search |
-| PLTR | $145.50 | N/A (pre-earnings close May 4) | Web search |
-| CRWD | ~$450.00 | N/A | Web search (partial) |
-| CELH | $33.76 | N/A | Web search |
+**Total cost basis (USD):** $145.00
+**Total current value (USD):** $146.85
+**Total return:** +$1.85 (+1.3%)
 
-## Data Gaps
-- CRWD price has low confidence (conflicting sources report $437-468)
-- PLTR after-hours price $147.83 post-earnings, but market has not opened since report
-- All prices from web search, not API. Confidence: moderate.
+## Watchlist
+| Ticker | Current Price | Notes |
+|---|---|---|
+| NVDA | $221.55 | Q1 FY27 earnings May 20 |
+| BRK.B | $479.50 | Post-annual meeting, Abel era |
+| PLTR | $134.93 | Down from $207 52W high |
+| CELH | $29.20 | Post-Q1 earnings sell-off (reported May 7) |
+| CRWD | $541.75 | Near 52W high |
+
+## Data source
+All prices from web search (no yfinance API available in cloud environment).
