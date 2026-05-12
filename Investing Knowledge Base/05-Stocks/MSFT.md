@@ -8,11 +8,11 @@
 ## Thesis
 Azure grew 40% in Q3 FY26. At 25x trailing P/E (19% below 10-year median of 33x), cheapest it has been relative to its own history. Deepest enterprise distribution moat in tech. Ended OpenAI revenue-share, positive for margins.
 
-## Key Metrics (as of 2026-05-01)
+## Key Metrics (as of 2026-05-12)
 | Metric | Value |
 |---|---|
-| Price | $418 |
-| Market Cap | $3.15T |
+| Price | $411.80 |
+| Market Cap | $3.07T |
 | Trailing P/E | ~25x |
 | Revenue Growth (Q3 FY26) | +18% YoY |
 | Azure Growth (Q3 FY26) | +40% YoY |
@@ -24,9 +24,10 @@ Azure grew 40% in Q3 FY26. At 25x trailing P/E (19% below 10-year median of 33x)
 Azure growth decelerates below 25% for 2 consecutive quarters, or total revenue growth falls below 10% YoY.
 
 ## Entry Zone
-Buy zone within 5% of current (~$397-$418)
+Buy zone within 5% of current (~$391-$412)
 
 ## Updates Log
 - 2026-05-01: Initial note created. Recommended in inaugural brief at HIGH conviction. Michael Burry disclosed MSFT position this week.
 - 2026-05-01: Bought 0.1405 shares at $412.77 ($58.00 total). Position opened.
 - 2026-05-10: Trade confirmed and added to Holdings.md.
+- 2026-05-12: Weekly review. Price $411.80 (-0.2% vs cost). Trading flat near entry. Azure growth 40% well above 25% invalidation threshold. Revenue +18% above 10% floor. HOLD confirmed.
