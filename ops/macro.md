@@ -1,35 +1,29 @@
 # Macro Indicators
 
-Last updated: 2026-05-05 17:00 NZT
+Last updated: 2026-05-12 17:00 NZT
 
 ## Rates
-| Indicator | Value | Change | Notes |
+| Indicator | Value | Prior Week | Change |
 |---|---|---|---|
-| 10Y Treasury | 4.456% | Highest since Jul 2025 | Middle East tensions driving |
-| 2Y Treasury | 3.954% | +6bps | Inflation expectations rising |
-| 10Y-2Y Spread | +50bps | Normal | No inversion signal |
-| 30Y Treasury | >5.00% | First time this cycle | Long-end selling off |
-| Fed Funds | 4.25-4.50% | Unchanged | Hold expected through 2026 |
+| 10Y Treasury | 4.39% | 4.38% | +1 bp |
+| 2Y Treasury | 3.97% | 3.93% | +4 bps |
+| 2s10s Spread | +42 bps | +45 bps | -3 bps |
 
-## Volatility & Dollar
-| Indicator | Value | Change | Notes |
+## Volatility and Dollar
+| Indicator | Value | Prior Week | Change |
 |---|---|---|---|
-| VIX | 18.29 | +7.65% | Elevated caution, not panic |
-| DXY | 98.48 | +0.33% | Near 2026 lows, weak dollar |
+| VIX | 18.41 | 17.19 | +7.1% |
+| DXY | 98.28 | 97.96 | +0.3% |
 
 ## FX
-| Pair | Value | vs 5Y Mean | Flag |
+| Pair | Rate | 5Y Mean (est.) | vs Mean |
 |---|---|---|---|
-| NZD/USD | 0.5876 | -7% below 0.63 mean | No flag (threshold 10%) |
+| NZD/USD | 0.5946 | ~0.625 | -4.9% below mean |
 
-## Context
-- Middle East tensions escalating, pushing oil prices higher
-- Fed expected to hold rates through year-end
-- 15% market-implied probability of December rate hike
-- Inflation scare (not growth scare): bonds and equities selling together
-- Dollar weak despite rate rises (geopolitical risk premium)
+## Notes
+- Rates inching higher ahead of inflation data. 10Y stable near 4.39%.
+- VIX elevated at 18.41, reflecting pre-CPI uncertainty.
+- NZD/USD at 0.5946, 4.9% below 5-year mean. Within neutral band.
 
-## Data Gaps
-- Oil price not fetched (would strengthen analysis)
-- Credit spreads not fetched
-- Source: web search, not FRED API directly. Confidence: moderate.
+## Data source
+Web search. FRED API not available in cloud environment.
