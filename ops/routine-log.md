@@ -1,5 +1,28 @@
 # Routine Log
 
+## 2026-05-12 17:00 NZT - Weekly Brief
+- **Status:** Success
+- **Brief generated:** Yes (12 sections complete)
+- **Branch:** claude/brief-2026-05-12
+- **PR:** Created
+- **Data gaps:**
+  - All prices from web search (not yfinance API)
+  - NZD/USD 5-year mean estimated (~0.625)
+  - Prior week macro values estimated
+  - Credit spreads not fetched
+  - Oil price not fetched
+- **Notable events:**
+  - All three holdings confirmed HOLD. No exits triggered.
+  - CELH Q1 earnings (May 7) beat but stock fell on margin concerns. Recommended MEDIUM conviction.
+  - BRK.B recommended HIGH conviction for theme diversification.
+  - NVDA recommended LOW conviction ahead of May 20 earnings.
+  - Portfolio +1.3% ($146.85 vs $145.00 cost basis).
+  - GOOGL hit ATH $400.80 on May 8.
+  - Theme concentration flagged: 100% AI Infrastructure. This week adds Quality Value and Consumer Growth.
+- **Inbox:** Empty (no items to process)
+- **Email:** Sent via Gmail connector
+- **Docx:** Generated at /tmp/Weekly Investing Brief - 2026-05-12.docx
+
 ## 2026-05-05 17:00 NZT - Weekly Brief
 - **Status:** Success (partial)
 - **Brief generated:** Yes (12 sections complete)
