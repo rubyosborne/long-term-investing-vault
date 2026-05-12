@@ -8,26 +8,27 @@
 ## Thesis
 AWS re-accelerated to 28% growth (15-quarter high). Operating margins at record 13.1%. Dual growth engine: cloud/AI compute + retail margin expansion. Anthropic partnership ($100B AWS commitment) locks in major AI workload.
 
-## Key Metrics (as of 2026-05-01)
+## Key Metrics (as of 2026-05-12)
 | Metric | Value |
 |---|---|
-| Price | $263 |
+| Price | $268.99 |
 | Market Cap | $2.80T |
 | Trailing P/E | ~36x |
 | Revenue Growth (Q1 2026) | +17% YoY |
 | AWS Growth (Q1 2026) | +28% YoY |
 | Operating Margin | 13.1% (record) |
 | Capex Guidance | $200B |
-| 52-Week High | $266 |
-| 52-Week Low | $184 |
+| 52-Week High | $279 |
+| 52-Week Low | $191 |
 
 ## Invalidation Trigger
 AWS growth decelerates below 20% for 2 consecutive quarters, or operating margins fall below 10%.
 
 ## Entry Zone
-Buy zone within 5% of current (~$250-$264)
+Buy zone within 5% of current (~$256-$269)
 
 ## Updates Log
 - 2026-05-01: Initial note created. Recommended in inaugural brief at MEDIUM conviction. At all-time high. FCF compressed to $1.2B from $25.9B YoY due to capex surge.
 - 2026-05-01: Bought 0.1092 shares at $265.65 ($29.00 total). Position opened.
 - 2026-05-10: Trade confirmed and added to Holdings.md.
+- 2026-05-12: Weekly review. Price $268.99 (+1.3% vs cost). ATH $278.56 on May 5 then pulled back. AWS growth 28% above 20% threshold. Operating margin 13.1% above 10% floor. HOLD confirmed.
