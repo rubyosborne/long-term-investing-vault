@@ -184,7 +184,7 @@ All file writes in Steps 0–6 use this branch.
 
 ### Step 7b (run after Step 6):
 3. Create PR: `POST https://api.github.com/repos/rubyosborne/long-term-investing-vault/pulls` body `{"title":"Weekly Investing Brief — YYYY-MM-DD","body":"<Section 10 + Exit Review summary>","head":"claude/brief-YYYY-MM-DD","base":"main"}`
-4. Enable auto-merge on the PR.
+4. Merge the PR immediately: `PUT https://api.github.com/repos/rubyosborne/long-term-investing-vault/pulls/{number}/merge` body `{"merge_method":"squash"}`. The PR exists for auditability, not for review gating.
 
 If any API call fails: log to `ops/routine-log.md`, continue. Brief is not blocked by PR failure.
 
