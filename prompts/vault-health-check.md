@@ -109,8 +109,8 @@ Write `ops/health-YYYY-MM-DD.md` to the branch with:
 
 ## Step 11: PR and merge
 - Create PR: `POST /repos/.../pulls` with title "Vault Health Check — YYYY-MM-DD", body = summary section from the health report, head = `claude/health-YYYY-MM-DD`, base = `main`.
-- If the PR contains only mechanical fixes (link corrections, date updates, field additions): merge immediately via `PUT /repos/.../pulls/{number}/merge` with `merge_method: squash`.
-- If the PR contains substantive changes or flagged items needing Ruby's review: leave open for review.
+- Merge the PR immediately via `PUT /repos/.../pulls/{number}/merge` with `merge_method: squash`. The PR exists for auditability, not for review gating.
+- If the PR contains substantive changes or flagged items needing Ruby's review: note this in the Gmail draft so Ruby can review the commit on main.
 
 ## Step 12: Gmail notification
 Create a Gmail draft to ruby.osborne@gmail.com.
