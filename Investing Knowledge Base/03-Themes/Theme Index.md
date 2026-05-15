@@ -8,7 +8,7 @@
 ## Watching
 | Theme | Status | Tickers | Last Updated |
 |---|---|---|---|
-| Quality Value | Watching | BRK.B | 2026-05-12 |
+| Quality Value | Active | BRK.B | 2026-05-15 |
 | Consumer Growth | Watching | CELH | 2026-05-12 |
 | Cybersecurity | Watching | CRWD | 2026-05-12 |
 

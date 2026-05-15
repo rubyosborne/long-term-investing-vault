@@ -3,7 +3,7 @@
 **Added:** 2026-05-05
 **Bucket:** Growth compounder (defensive anchor)
 **Themes:** [[Quality Value]]
-**Status:** Recommended (not yet purchased)
+**Status:** Active position
 
 ## Thesis
 The most defensive mega-cap in the market. P/E 15x with $373B cash providing both optionality and earnings ballast. New CEO Greg Abel, confirmed at May 2 annual meeting, explicitly committed to Buffett's capital allocation principles. Provides essential portfolio diversification away from AI Infrastructure concentration.
@@ -27,3 +27,5 @@ Buy zone within 5% of current (~$445-$469)
 
 ## Updates Log
 - 2026-05-05: Initial note created. Recommended in weekly brief at MEDIUM conviction. Annual meeting May 2 confirmed Abel continuity and Buffett principles. Starter position recommended for theme diversification.
+- 2026-05-12: Recommended HIGH conviction in weekly brief ($100). Bought 0.1049 shares at $476.48 ($50.00 total). Position opened.
+- 2026-05-15: Trade confirmed and added to Holdings.md. Quality Value theme note created.

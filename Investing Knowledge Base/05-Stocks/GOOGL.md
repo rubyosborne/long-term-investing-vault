@@ -31,3 +31,4 @@ Buy zone within 5% of current (~$369-$389)
 - 2026-05-01: Bought 0.1534 shares at $378.00 ($58.00 total). Position opened.
 - 2026-05-10: Trade confirmed and added to Holdings.md.
 - 2026-05-12: Weekly review. Price $388.64 (+2.8% vs cost). Hit ATH $400.80 on May 8 before pullback. Cloud growth 63% well above 30% invalidation threshold. HOLD confirmed. No concerns.
+- 2026-05-12: Bought 0.3176 GOOG (Class C) at $393.58 ($125.00 total). See [[GOOG]] note.

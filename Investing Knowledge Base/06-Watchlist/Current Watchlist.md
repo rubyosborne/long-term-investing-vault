@@ -6,7 +6,6 @@ Last updated: 2026-05-12
 | Ticker | Added | Source | Status | Key Catalyst | Notes |
 |---|---|---|---|---|---|
 | NVDA | 2026-05-01 | Funnel research | Watching | Q1 FY27 earnings May 20 | Recommended LOW conviction in 2026-05-12 brief ($75). Pre-earnings. |
-| BRK.B | 2026-05-01 | Inbox (Tier 3) | Watching | Abel transition monitoring | Recommended HIGH conviction in 2026-05-12 brief ($100). |
 | PLTR | 2026-05-01 | Funnel research | Watching | Next earnings ~Aug 2026 | At $134.93. Valuation 110x+ P/E. No action. |
 | CELH | 2026-05-01 | Funnel research | Watching | Q2 earnings ~Aug 2026 | Q1 beat (May 7) but stock fell on margins. Recommended MEDIUM conviction in 2026-05-12 brief ($75). |
 

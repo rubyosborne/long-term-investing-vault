@@ -31,3 +31,4 @@ Buy zone within 5% of current (~$391-$412)
 - 2026-05-01: Bought 0.1405 shares at $412.77 ($58.00 total). Position opened.
 - 2026-05-10: Trade confirmed and added to Holdings.md.
 - 2026-05-12: Weekly review. Price $411.80 (-0.2% vs cost). Trading flat near entry. Azure growth 40% well above 25% invalidation threshold. Revenue +18% above 10% floor. HOLD confirmed.
+- 2026-05-12: Bought 0.1840 additional shares at $407.50 ($75.00 total). Total position now 0.3245 shares, $133.00 cost basis, avg $409.86.
