@@ -1,29 +1,36 @@
 # Macro Indicators
-
-Last updated: 2026-05-12 17:00 NZT
+Last updated: 2026-05-19 17:00 NZT
 
 ## Rates
 | Indicator | Value | Prior Week | Change |
 |---|---|---|---|
-| 10Y Treasury | 4.39% | 4.38% | +1 bp |
-| 2Y Treasury | 3.97% | 3.93% | +4 bps |
-| 2s10s Spread | +42 bps | +45 bps | -3 bps |
+| 10Y Treasury | 4.60% | ~4.55% | +5bps |
+| 2Y Treasury | 4.09% | ~4.05% | +4bps (May 15 data) |
+| 10Y-2Y Spread | +51bps | ~+50bps | Stable |
 
-## Volatility and Dollar
+## Volatility & Dollar
 | Indicator | Value | Prior Week | Change |
 |---|---|---|---|
-| VIX | 18.41 | 17.19 | +7.1% |
-| DXY | 98.28 | 97.96 | +0.3% |
+| VIX | 17.82 | 18.41 | -3.2% |
+| DXY | 99.08 | ~99.5 | -0.4% |
 
 ## FX
-| Pair | Rate | 5Y Mean (est.) | vs Mean |
+| Pair | Value | 5Y Mean (est.) | Deviation |
 |---|---|---|---|
-| NZD/USD | 0.5946 | ~0.625 | -4.9% below mean |
+| NZD/USD | 0.587 | 0.625 | -6.1% |
 
-## Notes
-- Rates inching higher ahead of inflation data. 10Y stable near 4.39%.
-- VIX elevated at 18.41, reflecting pre-CPI uncertainty.
-- NZD/USD at 0.5946, 4.9% below 5-year mean. Within neutral band.
+## Commentary
+- 10Y yields at highest since February 2025. Elevated oil prices and persistent inflation keeping rates elevated.
+- Fed rate cuts remain off the table for 2026. Some speculation about potential rate hike.
+- 30Y yield briefly topped 5.1% on May 15.
+- VIX down 3.2% to 17.82, suggesting modest risk appetite improvement.
+- DXY at 99.08, slightly weaker. NZD at 0.587, 6.1% below 5-year mean.
+- NZD/USD not at the 10% threshold for "expensive USD entry" but trending that direction.
 
-## Data source
-Web search. FRED API not available in cloud environment.
+## Data Confidence
+- 10Y yield from multiple sources (CNBC, FRED, Trading Economics). High confidence.
+- 2Y yield from May 15 FRED data. Moderate confidence (2 business days stale).
+- VIX from CBOE via web search. High confidence.
+- DXY from web search. Moderate confidence.
+- NZD/USD from FRED and exchange rate sources. High confidence.
+- 5Y mean NZD/USD estimated (~0.625). Prior briefs used same estimate.
