@@ -36,6 +36,7 @@ Read these files via API in order:
 ## Step 0: Refresh data
 Cannot run local Python scripts in cloud environment. Instead:
 - For each ticker in Holdings.md and Current Watchlist.md, fetch current price via web search or public yfinance endpoints
+- Fetch S&P 500 (SPY or ^GSPC) current price and price on the portfolio's inception date (2026-05-01) to compute benchmark return
 - Fetch macro indicators: 10Y Treasury, 2Y Treasury, VIX, DXY, NZD/USD — use FRED public API (`https://api.stlouisfed.org/fred/series/observations`) or web search
 - Build the equivalent of `ops/prices.md` and `ops/macro.md` content in memory
 - Write updated `ops/prices.md` and `ops/macro.md` to the working branch (created in Step 7) with current data
@@ -94,6 +95,7 @@ Create `Investing Knowledge Base/04-Weekly Briefs/[YYYY-MM-DD] - Weekly Brief.md
 - Total cost basis (USD and NZD)
 - Total current value
 - Total return % (and per-position breakdown)
+- S&P 500 return since portfolio inception (2026-05-01) for benchmark comparison
 - FIF trajectory: current NZD cost basis vs $50k threshold
 
 ### Section 2: Exit Review
@@ -190,11 +192,13 @@ If any API call fails: log to `ops/routine-log.md`, continue. Brief is not block
 
 ## Step 8: Email
 Use the Gmail connector. To: ruby.osborne@gmail.com. Subject: "Weekly Investing Brief — YYYY-MM-DD".
-Email body structure:
-1. Portfolio Overview (from Section 1)
-2. Exit Review summary (from Section 2)
-3. This Week's Synthesis (from Section 10)
-4. Link to the PR for the full brief
+Email body should include the stock picks and reasoning from the brief, but exclude portfolio tracking (no Section 1 Portfolio Overview, no Section 4 Gap & Concentration Check). Structure:
+1. This Week's Synthesis (from Section 10)
+2. New Ideas with full reasoning (from Section 7 — include conviction, thesis, bear case, entry zone, allocation)
+3. Exit Review summary (from Section 2)
+4. Watchlist Update (from Section 8)
+5. Macro Snapshot (from Section 3)
+6. Link to the merged PR for the full brief including portfolio data
 
 ## Step 9: Log
 Append to `ops/routine-log.md` (via API on the working branch): timestamp, status (success / partial / failed), data gaps if any, notable events.
